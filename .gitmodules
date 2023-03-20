@@ -1,0 +1,4 @@
+[submodule "src/semgrep-rs"]
+	path = src/semgrep-rs
+	url = https://github.com/parsiya/semgrep-rs
+	branch = dev

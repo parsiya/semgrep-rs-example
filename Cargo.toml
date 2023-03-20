@@ -1,0 +1,13 @@
+[package]
+name = "semgrep-rs-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+semgrep-rs = { path = "src/semgrep-rs" }
+
+clap = { version = "4.1.4", features = ["derive"] }
+log = "0.4.17"
+log4rs = "1.2.0"
